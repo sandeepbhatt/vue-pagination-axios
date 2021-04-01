@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <a href="#" class="navbar-brand">bezKoder</a>
+      <a href="#" class="navbar-brand">VueJS</a>
       <div class="navbar-nav mr-auto">
+
         <li class="nav-item">
-          <a href="/tutorials" class="nav-link">Tutorials</a>
-        </li>
+        <a href="/cacCodes" class="nav-link">CAC Codes</a>
+      </li>
         <li class="nav-item">
-          <a href="/add" class="nav-link">Add</a>
+          <a href="/addCAC" class="nav-link">Add CAC</a>
         </li>
       </div>
     </nav>

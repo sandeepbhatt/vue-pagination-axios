@@ -6,21 +6,21 @@ Vue.use(Router);
 export default new Router({
   mode: "history",
   routes: [
-    {
-      path: "/",
-      alias: "/tutorials",
-      name: "tutorials",
-      component: () => import("./components/TutorialsList")
-    },
+
     {
       path: "/tutorials/:id",
       name: "tutorial-details",
-      component: () => import("./components/Tutorial")
+      component: () => import("./components/CACCode")
     },
     {
-      path: "/add",
-      name: "add",
-      component: () => import("./components/AddTutorial")
+      path: "/addCAC",
+      name: "addCAC",
+      component: () => import("./components/AddCACCode")
+    },{
+      path: "/cacCodes",
+      alias: "/cacCodes",
+      name: "cacCodes",
+      component: () => import("./components/CACCodeList")
     }
   ]
 });

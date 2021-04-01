@@ -2,7 +2,7 @@
   <div class="submit-form">
     <div v-if="!submitted">
       <div class="form-group">
-        <label for="title">Title</label>
+        <label for="title">CAC Code</label>
         <input
           type="text"
           class="form-control"
@@ -14,7 +14,7 @@
       </div>
 
       <div class="form-group">
-        <label for="description">Description</label>
+        <label for="description">CAC Group</label>
         <input
           class="form-control"
           id="description"
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import TutorialDataService from "../services/TutorialDataService";
+import TutorialDataService from "../services/CACCodeDataService";
 
 export default {
   name: "add-tutorial",

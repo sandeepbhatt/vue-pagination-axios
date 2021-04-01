@@ -49,12 +49,12 @@
 
   <div v-else>
     <br />
-    <p>Please click on a Tutorial...</p>
+    <p>Please click on a CAC Code...</p>
   </div>
 </template>
 
 <script>
-import TutorialDataService from "../services/TutorialDataService";
+import TutorialDataService from "../services/CACCodeDataService";
 
 export default {
   name: "tutorial",
